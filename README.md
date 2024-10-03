@@ -15,18 +15,16 @@ CheckMe/
 
 **Requirements
 System Requirements**
-Node.js (v14 or later) with npm
-Python (v3.8 or later)
-React Native CLI or Expo CLI
-Virtual Environment (venv) for Python
+Node.js (v14 or later) with npm,
+Python (v3.8 or later),
+React Native CLI or Expo CLI,
+Virtual Environment (venv) for Python,
 Android/iOS emulator or real device for React Native
-Setup Instructions
-Backend Setup (Python/Django)
 
 
 # Clone the Repository
 
-git clone https://github.com/yourusername/CheckMe.git
+git clone https://github.com/waleedwalee/Object-Detection-App---Python-Django-React-Native.git
 cd CheckMe/Backend
 
 
@@ -50,9 +48,9 @@ source venv/bin/activate
 
 # Install Dependencies
 
-pip install django
-pip install djangorestframework
-pip install ultralytics
+pip install django,
+pip install djangorestframework,
+pip install ultralytics,
 pip install django-cors-headers
 
 
@@ -76,7 +74,7 @@ npm install -g expo-cli
 
 Configure API Endpoint in Frontend Open the app.js file (or relevant configuration file) in the Frontend directory and update the backend API URL to point to your local Django server:
 
-# js
+# App.js:
 
 const API_URL = 'http://your-backend-ip-address:8000/';
 
