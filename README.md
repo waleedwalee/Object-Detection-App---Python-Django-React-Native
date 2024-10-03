@@ -46,12 +46,16 @@ On macOS/Linux
 source venv/bin/activate
 
 
-# Install Dependencies
+### Install Dependencies
 
-**pip install django,**
-**pip install djangorestframework,**
-pip install ultralytics,
-pip install django-cors-headers
+Run the following commands step by step:
+
+1. **Install Django**:
+   ```bash
+   pip install django
+   pip install djangorestframework
+   pip install ultralytics
+   pip install django-cors-headers
 
 
 # Frontend Setup (React Native)
