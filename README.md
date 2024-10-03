@@ -48,8 +48,8 @@ source venv/bin/activate
 
 # Install Dependencies
 
-pip install django,
-pip install djangorestframework,
+**pip install django,**
+**pip install djangorestframework,**
 pip install ultralytics,
 pip install django-cors-headers
 
